@@ -1,0 +1,350 @@
+
+
+html {
+    font-size: 14px;
+}
+
+.item-link {
+    color: black !important;
+}
+
+
+.logo {
+    padding-left: 20px;
+    color: dodgerblue;
+    font-size: 30px;
+}
+
+.write-twit {
+    max-width: 100%;
+    height: auto;
+}
+
+.link-home {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.user-img-40 {
+    border-radius: 90px;
+    width: 50px;
+}
+.user-img-30 {
+    border-radius: 90px;
+    width: 30px;
+}
+
+.btnmr-auto {
+    font-weight: bold;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    margin: 0px;
+    border: none;
+    
+}
+
+    .btnmr-auto:hover {
+        background-color: #1DA1F2;
+        border-radius: 30px;
+    }
+
+.col right-col {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-panel {
+    margin: 10px 0 0;
+    background-color: #fff;
+    line-height: 16px;
+}
+
+    .content-panel h4 {
+        display: inline-block;
+    }
+
+    .content-panel small {
+        font-size: 66%;
+        margin-left: 6px;
+    }
+
+    .content-panel li {
+        min-height: 70px;
+    }
+
+.btn-follow {
+    border-color: #1DA1F2;
+    color: #1DA1F2;
+    background-color: #fff;
+    border: 1px solid #1da1f2;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 4px 12px;
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    min-width: 89px;
+}
+
+    .btn-follow:hover {
+        background-color: #1DA1F2;
+        border-radius: 20px;
+    }
+
+
+
+.nav-bar-brand a ion-icon {
+    font-size: 30px;
+    color: black !important;
+}
+
+.nav-item {
+    border-radius: 50px;
+    display: flex;
+    
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 30px;
+    color: black !important;
+
+}
+
+
+
+    .nav-item .item-icon {
+        margin-right: 15px;
+        color: black !important;
+    }
+
+        .nav-item .item-icon ion-icon {
+            font-size: 24px;
+            color: black !important;
+        }
+
+
+.dispblk {
+    display: block;
+}
+
+
+
+.posttweetcontainer {
+    background: white;
+    padding: 10px 12px;
+    position: relative;
+}
+
+.posttweetprofimg {
+    width: 50px;
+    position: absolute;
+    left: 8px;
+    top: 13px;
+    border-radius: 50%;
+}
+
+.ml56px {
+    margin-left: 56px;
+}
+
+
+
+.mt10px {
+    margin-top: 10px;
+}
+
+.posttweettacontainer {
+    border-radius: 8px;
+    border: 1px solid #14171a;
+    border-image: none;
+    line-height: 20px;
+    box-shadow: 0px 0px 0px 1px #e6ecf0;
+    background-color: rgb(255, 255, 255);
+}
+
+.posttweetta {
+    border-width: 1px 1px 0px;
+    border-style: solid solid none;
+    border-color: black rgb(230, 236, 240) currentColor;
+    margin: 0px;
+    padding: 8px;
+    outline: 0px;
+    border-radius: 8px;
+    border-image: none;
+    width: 100%;
+    height: 50px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255);
+}
+
+.posttweetcountcont {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.posttweetcount {
+    margin-right: 10px;
+    display: block;
+    float: right;
+}
+
+.posttweetbutcont {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.posttweetbut {
+    padding: 6px 16px;
+    border-radius: 100px;
+    border: none;
+    border-image: none;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    cursor: pointer;
+    float: right;
+    box-shadow: none;
+    background-color: dodgerblue;
+    margin: 5px;
+}
+    .posttweetbut:hover {
+        background-color: #1DA1F2;
+        border-radius: 20px;
+    }
+
+.tweetscontainer {
+    background: black;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tweetcontainer {
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    border-bottom-color: #171a;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.tweetprofimg {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    float: left;
+}
+
+.tweetprofname {
+    color: #141a;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tweetprofuid {
+    color: #6586;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.tweetstats {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+    .tweetstats i {
+        color: dodgerblue;
+        font-size: 16px;
+    }
+
+.tweetstatscount {
+    color: rgb(101, 119, 134);
+    line-height: 1;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+.red i, .red span {
+    color: #e6ecf0 !important;
+}
+
+.tweetlist {
+   list-style-type: none;
+   border: 1px solid;
+   border-radius: 10px;
+   height: 120px;
+}
+
+.tweetusername {
+    font-size: x-small;
+    color: dimgray;
+}
+
+.tweetname {
+    font-weight: bold;
+}
+left col-sm-12 col-md-3{
+    display: block;
+}
+
+.tweetlist container-fluid{
+    padding-top: 20px
+}
+
+.card-title {
+    padding-left: 40px;
+}
+
+.user-img-30 {
+    position: absolute;
+    margin-top: 10px;
+}
+.card-subtitle  {
+    padding-left: 40px;
+    padding-bottom: 45px;
+}
+
+.counters{
+    float:right;
+}
+
+.input-box {
+    position: relative;
+    width: 250px;
+        
+}
+
+    .input-box i {
+        position: absolute;
+        right: 13px;
+        top: 10px;
+        color: #ced4da
+        
+    }
+
+    #footer{
+        position: fixed;
+    }
+
+.left {
+    display: block;
+}
+
+.tweet-card{
+    list-style-type: none;
+}
